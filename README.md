@@ -10,15 +10,16 @@ This repository contains the code for **conflict-anchored scenario parameterizat
 ---
 
 <p align="center">
-  <img src="images/teaser_39_180.png" width="90%">
+  <img src="images/pipeline.gif" width="100%">
 </p>
 
-*The target path near a conflict is described by three points: the conflict anchor q_c and the points where the target enters and leaves a circular window of radius L around it. Two deflection angles (θ1, θ2) and the end speed v_end are the parameters. Changing them produces new variants of the same encounter, which are exported as OpenSCENARIO files and executed in esmini with the ego replaying its recorded trajectory.*
+*From one recorded heterogeneous-traffic interaction (left, HetroD drone footage) to its reconstruction and parameterized test variants executed in esmini (right).*
 
 <p align="center">
-  <img src="images/conflict_window_vehicle_states.png" width="45%">
-  <img src="images/conflict_window_vehicle_states_cutin.png" width="45%">
+  <img src="images/conflict-anchored.png" width="90%">
 </p>
+
+*Conflict-instant anchoring selects the conflict keypoint q_c on the target path. Conflict-window parameterization describes the path near it by the entry and exit points of a circular window of radius L. Two deflection angles (θ1, θ2) and the end speed v_end are the parameters. Changing them produces new variants of the same encounter, which are exported as OpenSCENARIO files and executed in esmini with the ego replaying its recorded trajectory.*
 
 ### System Requirements
 * Linux (tested on Ubuntu 22.04)
