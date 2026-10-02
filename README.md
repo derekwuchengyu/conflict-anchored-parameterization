@@ -4,7 +4,7 @@
 
 This repository contains the code for **conflict-anchored scenario parameterization**, a method that turns a recorded ego–target interaction into a small set of interpretable parameters and generates executable OpenSCENARIO test scenarios from them.
 
-**Author:** Cheng-Yu Wu &nbsp;·&nbsp; **Advisor:** Yi-Ting Chen
+**Author:** Cheng-Yu Wu &nbsp;·&nbsp; **Advisor:** Yi-Ting Chen  
 **Affiliation:** Institute of Computer Science and Engineering, [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw)
 
 ---
