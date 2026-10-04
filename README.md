@@ -5,6 +5,8 @@
 
 [![Paper](https://img.shields.io/badge/Paper-Under%20Review-lightgrey?style=for-the-badge)](#)
 
+> **Note:** The paper is currently under review and will be linked here once it is publicly available. The code in this repository is a demo of the core parameterization, shown with selected figures. The complete, fully runnable code will be released after the paper submission.
+
 **Author:** Cheng-Yu Wu &nbsp;·&nbsp; **Advisor:** Yi-Ting Chen  
 **Affiliation:** Institute of Computer Science and Engineering, [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw)
 
@@ -20,8 +22,6 @@
   <source media="(prefers-color-scheme: dark)" srcset="images/text/about_dark.png">
   <img src="images/text/about_light.png" width="100%" alt="About">
 </picture>
-
-> **Note:** The paper is currently under review and will be linked here once it is publicly available. The code in this repository is a demo of the core parameterization, shown with selected figures. The complete, fully runnable code will be released after the paper submission.
 
 <p align="center">
   <img src="images/conflict-anchored.png" width="90%">
