@@ -1,0 +1,16 @@
+# Conflict-anchored parameterization settings used in the thesis (HetroD).
+fps: 30                    # dataset frame rate [Hz]
+conflict_threshold: 2.0    # PET gate on the path-to-path distance [m]
+
+# Per scenario class: spatial anchor (pet | cross | min_dist) and window radius L [m].
+# The end speed v_end is the recorded target speed at the same anchor frame.
+default: {anchor: pet, L: 10.0}
+classes:
+  tlkeep:    {anchor: pet,   L: 10.0}   # ego turns left, target goes straight
+  keeptl:    {anchor: pet,   L: 10.0}   # target turns left, N -> E
+  keeptl_sw: {anchor: pet,   L: 10.0}   # target turns left, S -> W
+  cutinl:    {anchor: cross, L: 5.0}    # target cuts in from the left
+  cutinr:    {anchor: pet,   L: 10.0}   # target cuts in from the right
+
+# Optional: weight of the conflict control point q_c (default 5).
+# classes: {uturn: {anchor: pet, L: 5.0, middle_cp_weight: 8}}
